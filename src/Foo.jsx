@@ -4,18 +4,18 @@ class Foo extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      data: 'Initial data'
+      data: this.props.data.toUpperCase()
     }
   }
 
-  updateState() {
-    this.setState({data: 'Data updated'})
+  changeDatatoLowerCase() {
+    this.setState({data: this.state.data.toLowerCase()})
   }
 
   render() {
     return (
       <div className="foo">
-        <button onClick={() => this.updateState()}>CLICK</button>
+        <button onClick={() => this.changeDatatoLowerCase()}>CLICK</button>
         <h4>{this.state.data}</h4>
       </div>
     )
