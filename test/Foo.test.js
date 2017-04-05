@@ -23,6 +23,6 @@ describe('Foo', () => {
   })
 
   it('should render correctly', () => {
-    expect(toJson(wrapper)).toMatchSnapshot();
+    expect(wrapper).toMatchSnapshot();
   })
 })

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Template repository for React project with testing via Jest and Enzyme",
   "main": "index.js",
+  "jest": {
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
+  },
   "scripts": {
     "build": "webpack -d",
     "test": "jest",
