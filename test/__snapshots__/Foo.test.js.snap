@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Foo should render correctly 1`] = `
+<div
+  className="foo"
+>
+  <button
+    onClick={[Function]}
+  >
+    CLICK
+  </button>
+  <h4>
+    hello world
+  </h4>
+</div>
+`;
