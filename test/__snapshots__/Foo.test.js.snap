@@ -5,12 +5,19 @@ exports[`Foo should render correctly 1`] = `
   className="foo"
 >
   <button
+    id="toLowerButton"
     onClick={[Function]}
   >
-    CLICK
+    toLower
+  </button>
+  <button
+    id="toUpperButton"
+    onClick={[Function]}
+  >
+    toUpper
   </button>
   <h4>
-    hello world
+    Hello World!
   </h4>
 </div>
 `;

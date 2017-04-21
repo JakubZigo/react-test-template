@@ -8,7 +8,7 @@ describe('App', () => {
   const wrapper = shallow(<App />)
 
   it('Should render Foo', () => {
-    expect(wrapper.find('Foo').length).toBe(1)
+    expect(wrapper.find('Connect(Foo)').length).toBe(1)
   })
 
   it('should render correctly', () => {
