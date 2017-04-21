@@ -2,6 +2,7 @@
   "name": "react-test-template",
   "version": "1.0.0",
   "description": "Template repository for React project with testing via Jest and Enzyme",
+  "repository": "https://github.com/siwatpru/react-test-template",
   "main": "index.js",
   "jest": {
     "snapshotSerializers": ["enzyme-to-json/serializer"]
