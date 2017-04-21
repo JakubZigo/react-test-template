@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-import { render } from 'react-dom'
-
-import Foo from './Foo'
+import Foo from './Foo.jsx'
 
 class App extends Component {
   render() {
-    return <Foo />
+    return <Foo data="Hello World!" />
   }
 }
 

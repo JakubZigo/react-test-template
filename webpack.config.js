@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const BUILD_DIR = path.resolve(__dirname, 'build')
 
 const config = {
-  entry: 'index.jsx',
+  entry: './index.jsx',
   module: {
     rules: [
       {
@@ -26,7 +26,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: `index.html`
+      template: './index.html'
     }),
   ],
 }
