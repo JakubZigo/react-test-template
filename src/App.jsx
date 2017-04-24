@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
 import Foo from './Foo.jsx'
+import YesNo from './YesNo.jsx'
 
 class App extends Component {
   render() {
-    return <Foo/>
+    return (
+      <div>
+        <Foo />
+        <YesNo />
+      </div>
+    )
   }
 }
 
