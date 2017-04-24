@@ -1,6 +1,5 @@
 import reducer from './yesno'
 import nock from 'nock'
-import sinon from 'sinon'
 
 describe('YesNo reducer', () => {
   it('should return the initial state', () => {
