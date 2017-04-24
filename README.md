@@ -62,6 +62,51 @@ export class Foo extends Component {
 export default connect(...)(Foo)
 ```
 
+- Testing Redux actions/reducers is very simple. Since most of them are pure function.
+```javascript
+// actions/message.js
+export function toUpper() {
+  return {
+    type: 'TO_UPPER'
+  }
+}
+
+// actions/message.test.js
+it('should create an action to change text to uppercase', () => {
+  const expectedAction = {
+    type: 'TO_UPPER'
+  }
+  expect(actions.toUpper()).toEqual(expectedAction)
+})
+```
+
+```javascript
+// reducers/message.js
+const message = (state=initialState, action) => {
+  switch (action.type) {
+    case 'TO_UPPER':
+      return {
+        data: state.data.toUpperCase()
+      }
+    ...
+  }
+}
+
+// reducers/message.js
+it('should handle TO_UPPER', () => {
+  expect(
+    reducer(
+      {data: 'test'},
+      {type: 'TO_UPPER'}
+    )
+  ).toEqual({
+    data: 'TEST'
+  })
+})
+```
+
+- 
+
 
 ## Installation
 ```bash
