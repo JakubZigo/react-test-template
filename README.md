@@ -1,4 +1,4 @@
-react-test-template [![Build Status](https://travis-ci.org/siwatpru/react-test-template.svg?branch=master)](https://travis-ci.org/siwatpru/react-test-template)
+react-test-template [![Build Status](https://travis-ci.org/siwatpru/react-test-template.svg?branch=master)](https://travis-ci.org/siwatpru/react-test-template) [![Coverage Status](https://coveralls.io/repos/github/siwatpru/react-test-template/badge.svg?branch=master)](https://coveralls.io/github/siwatpru/react-test-template?branch=master)
 ===================
 
 This repository is an example of how to test React + Redux application.

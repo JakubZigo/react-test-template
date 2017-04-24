@@ -12,6 +12,7 @@
   "scripts": {
     "build": "webpack -d",
     "test": "jest",
+    "test:coveralls": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "test:watch": "jest --watch",
     "coverage": "jest --coverage",
     "coverage:watch": "jest --coverage --watch"
@@ -19,6 +20,7 @@
   "author": "Siwat Pruksapanya <siwat.pru@outlook.com>",
   "license": "MIT",
   "dependencies": {
+    "coveralls": "^2.13.0",
     "enzyme-to-json": "^1.5.0",
     "isomorphic-fetch": "^2.2.1",
     "react": "^15.4.2",
