@@ -11,6 +11,10 @@ describe('App', () => {
     expect(wrapper.find('Connect(Foo)').length).toBe(1)
   })
 
+  it('Should render YesNo', () => {
+    expect(wrapper.find('Connect(YesNo)').length).toBe(1)
+  })
+
   it('should render correctly', () => {
     expect(wrapper).toMatchSnapshot();
   })
