@@ -105,7 +105,7 @@ it('should handle TO_UPPER', () => {
 })
 ```
 
-- Testing Async Action Creator is a bit tricky. Redux documentation recommends that we use `redux-mock-store` to mock the store and assert for actions dispatched. We can mock the HTTP request to test the diffrence behaviors. e.g. what happens when the request fail. ([Redux-thunk](https://github.com/gaearon/redux-thunk) is used as async middleware"
+- Testing Async Action Creator is a bit tricky. Redux documentation recommends that we use `redux-mock-store` to mock the store and assert for actions dispatched. We can mock the HTTP request to test the diffrence behaviors. e.g. what happens when the request fail. ([Redux-thunk](https://github.com/gaearon/redux-thunk) is used as async middleware)
 
 ```javascript
 // actions/yesno.js
