@@ -92,7 +92,7 @@ const message = (state=initialState, action) => {
   }
 }
 
-// reducers/message.js
+// reducers/message.test.js
 it('should handle TO_UPPER', () => {
   expect(
     reducer(
