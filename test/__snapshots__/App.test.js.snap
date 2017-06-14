@@ -4,5 +4,6 @@ exports[`App should render correctly 1`] = `
 <div>
   <Connect(Foo) />
   <Connect(YesNo) />
+  <MyButton />
 </div>
 `;

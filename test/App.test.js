@@ -15,6 +15,10 @@ describe('App', () => {
     expect(wrapper.find('Connect(YesNo)').length).toBe(1)
   })
 
+  it('Should render MyButton', () => {
+    expect(wrapper.find('MyButton').length).toBe(1)
+  })
+
   it('should render correctly', () => {
     expect(wrapper).toMatchSnapshot();
   })
